@@ -322,9 +322,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
+    <Compile Include="Assets\Scripts\Playerbullet.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\TimerDestroy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Space shooter\SpaceShooterRedux\Spritesheet\sheet.xml" />
