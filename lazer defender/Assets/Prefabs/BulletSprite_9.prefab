@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7544774434320058648}
   - component: {fileID: 7544774434320058655}
   - component: {fileID: 720534131211351838}
+  - component: {fileID: 1367780618394645168}
+  - component: {fileID: 1961719446249951029}
   - component: {fileID: 7338069214668819435}
   m_Layer: 0
   m_Name: BulletSprite_9
@@ -114,6 +116,32 @@ PolygonCollider2D:
       - {x: 0.01, y: 0.03}
       - {x: 0.049999997, y: 0.07}
       - {x: 0.049999997, y: 0.13}
+--- !u!114 &1367780618394645168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544774434320058654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a8ebb365855c784b8a7f71b5a550ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interval: 1.5
+--- !u!114 &1961719446249951029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544774434320058654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f520a61db0544e644bb9b7539d204023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!50 &7338069214668819435
 Rigidbody2D:
   serializedVersion: 4
